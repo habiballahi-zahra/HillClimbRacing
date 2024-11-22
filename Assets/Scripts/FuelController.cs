@@ -9,6 +9,7 @@ public class FuelController : MonoBehaviour
     public static FuelController instance;
 
 
+    [SerializeField] AudioSource CollectSound;
     [SerializeField] private Image _fuelImage;
     [SerializeField, Range(0.1f, 5f)] private float _fuelDrainSpeed = 1f;
     [SerializeField] private float _maxFuelAmount = 100f;
@@ -43,5 +44,13 @@ public class FuelController : MonoBehaviour
     {
         _fuelImage.fillAmount = (_currentFuelAmount / _maxFuelAmount);
         _fuelImage.color = _fuelGradient.Evaluate(_fuelImage.fillAmount);
+    }
+
+    public void FillFuel()
+    {
+        CollectSound.Play();
+        if(_currentFuelAmount < _maxFuelAmount) 
+        _currentFuelAmount += 20;
+        UpdateUI();
     }
 }

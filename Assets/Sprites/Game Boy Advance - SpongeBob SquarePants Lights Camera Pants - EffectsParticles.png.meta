@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56fffe7d14b42b54484bfc07dee64480
+guid: 5f4b66cf410d9984c8cfb8195dd3167d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -123,190 +123,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Berger_0
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 31
-        width: 57
-        height: 33
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 0
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 221751dedbcc00845b14898c93bb6a00
-      internalID: -1504239697
+      spriteID: 48d52a931675934469d16dc6dea36dab
+      internalID: 499528566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_1
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_1
       rect:
         serializedVersion: 2
-        x: 76
-        y: 42
-        width: 60
-        height: 22
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 120
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7039501f2f77e4894123526518aebe
-      internalID: 2096477009
+      spriteID: e982dac9642a10d418b35a3fb5b7a0ab
+      internalID: 1086697238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_2
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_2
       rect:
         serializedVersion: 2
-        x: 150
-        y: 44
-        width: 61
-        height: 28
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 240
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54ba83a2cf37f8e43b0296175b780aea
-      internalID: -587316137
+      spriteID: b0d3bdb01055de04faaba5e218318964
+      internalID: -180182204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_3
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_3
       rect:
         serializedVersion: 2
-        x: 223
-        y: 20
-        width: 62
-        height: 67
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 360
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 228b62b2a3f7d764eb09e7b2858d6b1a
-      internalID: -1849732738
+      spriteID: 35a236eef5cae1d46af2fe71bf872dd8
+      internalID: 1601326189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_4
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_4
       rect:
         serializedVersion: 2
-        x: 301
-        y: 21
-        width: 62
-        height: 35
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 480
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d2adda65b814e44f9c96d51e626fcd3
-      internalID: 1965696478
+      spriteID: 024d4cf541edc25499386df7fd9f7276
+      internalID: -1848975418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_5
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_5
       rect:
         serializedVersion: 2
-        x: 375
-        y: 46
-        width: 62
-        height: 41
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 600
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5efa891ab7f7775429f238913b787a7f
-      internalID: -686304077
+      spriteID: deb51d293ef940645b5ea6dbc6fc74a9
+      internalID: 404827655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_6
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_6
       rect:
         serializedVersion: 2
-        x: 453
-        y: 20
-        width: 62
-        height: 67
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 720
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58401fbddc78f9f4b94683dc60c6511f
-      internalID: 1219976029
+      spriteID: 33e23a781cce82c449bfb4b911ce424d
+      internalID: 1128979923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Berger_7
+      name: Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_7
       rect:
         serializedVersion: 2
-        x: 528
-        y: 20
-        width: 71
-        height: 67
-      alignment: 1
-      pivot: {x: 0, y: 1}
+        x: 840
+        y: 0
+        width: 120
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0514191df1aa78540999f2e344ae7f68
-      internalID: 96422003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Berger_8
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 33
-        width: 71
-        height: 41
-      alignment: 1
-      pivot: {x: 0, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e84a6f9f5ed081479bce886f2bd8b44
-      internalID: 490855949
+      spriteID: cbbd62f37e813b94d866dee0a19999b7
+      internalID: -1255723552
       vertices: []
       indices: 
       edges: []
@@ -322,15 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Berger_0: -1504239697
-      Berger_1: 2096477009
-      Berger_2: -587316137
-      Berger_3: -1849732738
-      Berger_4: 1965696478
-      Berger_5: -686304077
-      Berger_6: 1219976029
-      Berger_7: 96422003
-      Berger_8: 490855949
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_0: 499528566
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_1: 1086697238
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_2: -180182204
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_3: 1601326189
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_4: -1848975418
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_5: 404827655
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_6: 1128979923
+      Game Boy Advance - SpongeBob SquarePants Lights Camera Pants - EffectsParticles_7: -1255723552
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
