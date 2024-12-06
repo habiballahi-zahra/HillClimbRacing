@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 public class DriverDeathFromHeead : MonoBehaviour
 {
 
-    [SerializeField] private GameObject Bubble;
+   
 
 
     private void OnCollisionEnter2D(Collision2D collision)
