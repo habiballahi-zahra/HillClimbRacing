@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     [SerializeField] private GameObject _gameOverCanvas;
-    
+    [SerializeField] private GameObject _restartGameCanvas;
+    [SerializeField] private GameObject _HUDCanvas;
+
 
     private void Awake()
     {
@@ -26,15 +28,27 @@ public class GameManager : MonoBehaviour
     {
 
         _gameOverCanvas.SetActive(true);
+          Time.timeScale = 0f;
+
+    }
+
+    public void EndGame()
+    {
+
+        _restartGameCanvas.SetActive(true);
+        _HUDCanvas.SetActive(false);
         Time.timeScale = 0f;
 
     }
 
-    public void RestartGame()
+    public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-1);
+    }
 
-    
 }

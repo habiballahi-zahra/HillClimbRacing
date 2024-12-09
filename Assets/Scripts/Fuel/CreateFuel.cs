@@ -24,4 +24,6 @@ public class CreateFuel : MonoBehaviour
         Instantiate(FuelBottle,position, Quaternion.identity);
         StartCoroutine(FuelCreator());
     }
+
+   
 }
